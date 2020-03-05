@@ -1,0 +1,879 @@
+
+/*top*/
+
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #fff;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 22px;
+	color: #4a4a4a;
+}
+
+.white-border-button a {
+	padding: 14px 20px;
+	background-color: rgba(56, 56, 56, 0.75);
+	border: 0px solid #4a4a4a;
+	;
+	border-radius: 30px;
+	color: #f4bc51;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+/*inicio*/
+
+.banner .col-md-8 {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.banner .col-md-4 {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+
+.banner .left-banner-content {
+	padding: 100px 45px;
+	background-color: #f4bc51;
+	text-align: center;		
+	min-height: 680px;
+	height: 680px;
+}
+
+.left-banner-content h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	margin-bottom: 5px;
+}
+
+.left-banner-content .line-dec {
+	width: 100%;
+	height: 5px;
+	background-color: #fff;
+	margin: 30px auto;
+}
+
+.left-banner-content h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.5px;
+}
+
+.left-banner-content em {
+	font-style: normal;
+	font-weight: 700;
+}
+
+.left-banner-content p {
+	font-style: italic;
+	font-size: 14px;
+	color: rgb(77, 77, 77);
+}
+
+
+.right-banner-content {
+	padding-top: 175px;
+	padding-bottom: 175px;
+	padding-left: 120px;
+	text-align: left;
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 680px;
+	height: 680px;
+}
+.right-banner-content h6{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}	
+
+.right-banner-content h1 {
+	font-size: 64px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 70px;
+}
+
+.right-banner-content h3 {
+	font-size: 25px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 70px;
+}
+
+.right-banner-content .line-dec {
+	width: 80px;
+	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+
+.right-banner-content .white-border-button {
+	margin-top: 52px;
+}
+
+.right-banner-content span {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.5px;
+}
+
+
+.right-banner-content p {
+	font-style: italic;
+	font-size: 13px;
+	color: #fff;
+}
+
+/*titulo*/
+
+.bottom-banner-content h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: rgb(255, 201, 23);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+
+}
+
+/*menu-flip*/
+
+.services {
+	margin-top: 10px;
+	padding-top: 0vh;
+	padding-bottom: 0vh;
+	text-align: center;
+	background-image: url(../img/menu-fondo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.services .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.services .col-md-3 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.flip-container {
+  perspective: 1000;
+}
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.flip-container,
+.front,
+.back {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.front {
+	padding: 40px 30px;
+}
+
+.front .icon {
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+	background-color: transparent;
+	margin: 30px auto;
+}
+
+.flipper {
+  -webkit-transition: 0.3s all;   
+-webkit-transition-delay: 0.3s; 
+-moz-transition: 0.3s all;   
+-moz-transition-delay: 5s; 
+-ms-transition: 0.3s all;   
+-ms-transition-delay: 5s; 
+-o-transition: 0.3s all;   
+-o-transition-delay: 5s; 
+transition: 0.3s all;   
+transition-delay: 0.3s; 
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  color: white;
+	transform: rotateY(0deg);
+}
+
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.back h3 {
+  color: #fff;
+  padding: 90px 30px;
+  text-align: center;
+}
+
+.first-service .front,
+.first-service .back {
+	background-color: rgba(244, 188, 81, 0.9);
+}
+
+.second-service .front,
+.second-service .back {
+	background-color: rgba(243, 158, 75, 0.9);
+}
+
+.third-service .front,
+.third-service .back {
+	background-color: rgba(185, 78, 94, 0.9);
+}
+
+.fourth-service .front,
+.fourth-service .back {
+	background-color: rgba(232, 104, 89, 0.9);
+}
+
+
+/*Anime*/
+
+.anime-section-best-offer-content {
+	min-height: 550px;
+	height: 550px;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+    background-image: url(../img/001.png);
+    background-color: rgba(244, 188, 81, 1);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	
+}
+.anime-section-best-offer-right-content em {
+	font-style: normal;
+	color:rgba(244, 188, 81, 1);
+	font-weight: 700;
+	text-align: center;
+}
+
+.anime-section-best-offer-right-content img {
+	float: right;
+	overflow: auto;
+}
+
+.anime-section-best-offer-true-content h2 {
+	font-style: normal;
+	color: rgba(244, 188, 81, 1);
+	font-weight: 700;
+	text-align: right;
+}
+
+
+.anime-section-best-offer-true-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 550px;
+	height: 550px;
+}
+
+.anime-section-best-offer-right-content h2 {
+	margin-top: 0px;
+	font-size: 32px;
+	font-weight: 300;
+	color: #121212;
+	line-height: 36px;
+}
+
+.anime-section-best-offer-right-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 550px;
+	height: 550px;
+}
+
+.anime-section-best-offer-right-content p {
+	margin: 18px 0px;
+}
+
+.anime-section-best-offer-left-content {
+	min-height: 550px;
+	height: 550px;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+	background-image: url(../img/001.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.anime-section-best-offer-left-content .icon {
+	text-align: center;
+	margin: 0 auto;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+	background-color: transparent;
+	border: 0px solid #fff;
+	border-radius: 50%;
+}
+
+.anime-section-best-offer-right-content em {
+	font-style: normal;
+	color: rgba(244, 188, 81, 1);
+	font-weight: 700;
+}
+
+.anime-section-best-offer-right-content p {
+	margin: 18px 0px;
+}
+
+.anime-section-best-offer-right-content ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.anime-section-best-offer-right-content ul li {
+	display: block;
+	font-size: 13px;
+	font-style: italic;
+	color: #7a7a7a;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.anime-section-best-offer-right-content .pink-button {
+	margin-top: 45px;
+}
+
+
+/*Manga*/
+
+.manga-section-best-offer-content {
+	min-height: 550px;
+	height: 550px;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+    background-image: url(../img/002.png);
+    background-color: rgba(243, 158, 75, 1);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+.manga-section-best-offer-right-content em {
+	font-style: normal;
+	color:rgba(243, 158, 75, 1);
+	font-weight: 700;
+	text-align: center;
+}
+
+.manga-section-best-offer-right-content img {
+	float: right;
+	overflow: auto;
+}
+
+.manga-section-best-offer-true-content h2 {
+	font-style: normal;
+	color: rgba(243, 158, 75, 1);
+	font-weight: 700;
+	text-align: right;
+}
+
+
+.manga-section-best-offer-true-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 550px;
+	height: 550px;
+}
+
+.manga-section-best-offer-right-content h2 {
+	margin-top: 0px;
+	font-size: 32px;
+	font-weight: 300;
+	color: #121212;
+	line-height: 36px;
+}
+
+.manga-section-best-offer-right-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 550px;
+	height: 550px;
+}
+
+.manga-section-best-offer-right-content p {
+	margin: 18px 0px;
+}
+
+.manga-section-best-offer-left-content {
+	min-height: 550px;
+	height: 550px;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+	background-image: url(../img/002.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.manga-section-best-offer-left-content .icon {
+	text-align: center;
+	margin: 0 auto;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+	background-color: transparent;
+	border: 0px solid #fff;
+	border-radius: 50%;
+}
+
+.manga-section-best-offer-right-content em {
+	font-style: normal;
+	color: rgba(243, 158, 75, 1);
+	font-weight: 700;
+}
+
+.manga-section-best-offer-right-content p {
+	margin: 18px 0px;
+}
+
+.manga-section-best-offer-right-content ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.manga-section-best-offer-right-content ul li {
+	display: block;
+	font-size: 13px;
+	font-style: italic;
+	color: #7a7a7a;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.manga-section-best-offer-right-content .pink-button {
+	margin-top: 45px;
+}
+
+
+/*videogames*/
+
+.videogames-section-best-offer-content {
+	min-height: 550px;
+	height: 550px;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+    background-image: url(../img/003.png);
+    background-color: rgba(185, 78, 94, 0.9);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+.videogames-section-best-offer-right-content em {
+	font-style: normal;
+	color:rgba(185, 78, 94, 0.9);
+	font-weight: 700;
+	text-align: center;
+}
+
+.videogames-section-best-offer-right-content img {
+	float: right;
+	overflow: auto;
+}
+
+.videogames-section-best-offer-true-content h2 {
+	font-style: normal;
+	color: rgba(185, 78, 94, 0.9);
+	font-weight: 700;
+	text-align: right;
+}
+
+
+.videogames-section-best-offer-true-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 550px;
+	height: 550px;
+}
+
+.videogames-section-best-offer-right-content h2 {
+	margin-top: 0px;
+	font-size: 32px;
+	font-weight: 300;
+	color: #121212;
+	line-height: 36px;
+}
+
+.videogames-section-best-offer-right-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 550px;
+	height: 550px;
+}
+
+.videogames-section-best-offer-right-content p {
+	margin: 18px 0px;
+}
+
+.videogames-section-best-offer-left-content {
+	min-height: 550px;
+	height: 550px;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+	background-image: url(../img/best-offer-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.videogames-section-best-offer-left-content .icon {
+	text-align: center;
+	margin: 0 auto;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+	background-color: transparent;
+	border: 0px solid #fff;
+	border-radius: 50%;
+}
+
+.videogames-section-best-offer-right-content em {
+	font-style: normal;
+	color: rgba(185, 78, 94, 0.9);
+	font-weight: 700;
+}
+
+.videogames-section-best-offer-right-content p {
+	margin: 18px 0px;
+}
+
+.videogames-section-best-offer-right-content ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.videogames-section-best-offer-right-content ul li {
+	display: block;
+	font-size: 13px;
+	font-style: italic;
+	color: #7a7a7a;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.videogames-section-best-offer-right-content .pink-button {
+	margin-top: 45px;
+}
+
+
+/*movies*/
+
+.movies-section-best-offer-content {
+	min-height: 550px;
+	height: 550px;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+    background-image: url(../);
+    background-color: rgba(232, 104, 89, 1);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	
+	
+}
+.movies-section-best-offer-right-content em {
+	font-style: normal;
+	color: rgba(232, 104, 89, 1);
+	font-weight: 700;
+	text-align: center;
+}
+
+.movies-section-best-offer-right-content img {
+	float: right;
+	overflow: auto;
+}
+
+.movies-section-best-offer-true-content h2 {
+	font-style: normal;
+	color: rgba(232, 104, 89, 1);
+	font-weight: 700;
+	text-align: right;
+}
+
+
+.movies-section-best-offer-true-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 550px;
+	height: 550px;
+}
+
+.movies-section-best-offer-right-content h2 {
+	margin-top: 0px;
+	font-size: 32px;
+	font-weight: 300;
+	color: #121212;
+	line-height: 36px;
+}
+
+.movies-section-best-offer-right-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 550px;
+	height: 550px;
+}
+
+.movies-section-best-offer-right-content p {
+	margin: 18px 0px;
+}
+
+.movies-section-best-offer-left-content {
+	min-height: 550px;
+	height: 550px;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+	background-image: url(../img/001.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.movies-section-best-offer-left-content .icon {
+	text-align: center;
+	margin: 0 auto;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+	background-color: transparent;
+	border: 0px solid #fff;
+	border-radius: 50%;
+}
+
+
+.movies-section-best-offer-right-content em {
+	font-style: normal;
+	color: rgba(232, 104, 89, 1);
+	font-weight: 700;
+}
+
+.movies-section-best-offer-right-content p {
+	margin: 18px 0px;
+}
+
+.movies-section-best-offer-right-content ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.movies-section-best-offer-right-content ul li {
+	display: block;
+	font-size: 13px;
+	font-style: italic;
+	color: #7a7a7a;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.movies-section-best-offer-right-content .pink-button {
+	margin-top: 45px;
+}
+
+/*aqui*/
+
+.banner .ultimo-banner-content .line-dec {
+	margin: 0 auto;
+}
+
+.ultimo-banner-content {
+	align-content: center;
+}
+
+.ultimo-banner-content h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: rgb(231, 185, 33);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+
+}
+
+.ultimo-banner-content .line-dec {
+	width: 500px;
+	height: 5px;
+	background-color: rgb(231, 185, 33);
+	margin: 30px auto;
+}
+
+.ultimo-banner-content p {
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(59, 59, 59);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+
+}
+
+.ultimo-banner-content h2 {
+	font-size: 28px;
+	font-weight: 500;
+	color: rgb(255, 132, 60);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.ultimo-banner-content h5 {
+	font-size: 16px;
+	font-weight: 600;
+	color: rgb(68, 67, 64);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+
+}
+
+.ultimo-banner-content b {
+	font-size: 18px;
+	font-weight: 700;
+	color: rgb(255, 59, 59);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+}
+
+/*cosas que toadvia no se bien para que son*/
+
+@media (max-width: 991px) {
+
+	.banner .col-md-8 {
+		margin-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.banner .col-md-4 {
+		margin-top: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.banner .left-banner-content {
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.left-banner-content h1 {
+		font-size: 64px;
+		font-weight: 300;
+		color: #fff;
+		line-height: 80px!important;
+	}
+
+
+	.banner .left-banner-content .line-dec {
+		margin: 0 auto;
+	}
+
+	.best-offer .col-md-8 {
+		margin-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.best-offer .col-md-4 {
+		margin-top: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.best-offer-right-content {
+		text-align: center;
+	}
+
+	.movies-section-best-offer-true-content {
+		background-color: #eee;
+		padding: 30px 30px;
+		min-height: 550px;
+		height: auto;
+	}
+
+	.best-offer-right-content {
+		background-color: #eee;
+		padding: 30px 30px;
+		min-height: 550px;
+		height: auto;
+	}
+
+	.best-offer-right-content .pink-button {
+		margin-bottom: 50px;
+	}
+	
+}
+
