@@ -1,0 +1,327 @@
+
+/*top*/
+
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #fff;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 22px;
+	color: #4a4a4a;
+}
+
+.white-border-button a {
+	padding: 14px 20px;
+	background-color: rgba(56, 56, 56, 0.75);
+	border: 0px solid #4a4a4a;
+	;
+	border-radius: 30px;
+	color: #f4bc51;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.white-border-button h2 {
+	padding: 14px 20px;
+	background-color: rgba(56, 56, 56, 0.75);
+	border: 0px solid #4a4a4a;
+	;
+	border-radius: 30px;
+	color: #f4bc51;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+/*inicio*/
+
+.banner .col-md-8 {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.banner .col-md-4 {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+
+.banner .left-banner-content {
+	padding: 100px 45px;
+	background-color: #f4bc51;
+	text-align: center;		
+	min-height: 680px;
+	height: 680px;
+}
+
+.left-banner-content h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	margin-bottom: 5px;
+}
+
+.left-banner-content .line-dec {
+	width: 100%;
+	height: 5px;
+	background-color: #fff;
+	margin: 30px auto;
+}
+
+.left-banner-content h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.5px;
+}
+
+.left-banner-content em {
+	font-style: normal;
+	font-weight: 700;
+}
+
+.left-banner-content p {
+	font-style: italic;
+	font-size: 14px;
+	color: rgb(77, 77, 77);
+}
+
+
+.right-banner-content {
+	padding-top: 175px;
+	padding-bottom: 175px;
+	padding-left: 120px;
+	text-align: left;
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 680px;
+	height: 680px;
+}
+.right-banner-content h6{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}	
+
+.right-banner-content h1 {
+	font-size: 64px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 70px;
+}
+
+.right-banner-content h3 {
+	font-size: 25px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 70px;
+}
+
+.right-banner-content .line-dec {
+	width: 80px;
+	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+
+.right-banner-content .white-border-button {
+	margin-top: 52px;
+}
+
+.right-banner-content span {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.5px;
+}
+
+
+.right-banner-content p {
+	font-style: italic;
+	font-size: 13px;
+	color: #fff;
+}
+
+
+/*ultimo banner*/
+
+.banner .ultimo-banner-content .line-dec {
+	margin: 0 auto;
+}
+
+.ultimo-banner-content {
+	align-content: center;
+}
+
+.ultimo-banner-content h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: rgb(231, 185, 33);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+
+}
+
+.ultimo-banner-content .line-dec {
+	width: 500px;
+	height: 5px;
+	background-color: rgb(231, 185, 33);
+	margin: 30px auto;
+}
+
+.ultimo-banner-content p {
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(59, 59, 59);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+
+}
+
+.ultimo-banner-content h2 {
+	font-size: 28px;
+	font-weight: 500;
+	color: rgb(255, 132, 60);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.ultimo-banner-content h5 {
+	font-size: 16px;
+	font-weight: 600;
+	color: rgb(68, 67, 64);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+
+}
+
+.ultimo-banner-content b {
+	font-size: 18px;
+	font-weight: 700;
+	color: rgb(255, 59, 59);
+	margin-bottom: 0px;
+	padding: 14px 20px;
+	text-align: center;
+}
+
+/*ACTIVIDAD 1*/ 
+
+
+.actividad1-content {
+	text-align: center;
+}
+
+.button {
+	align-content: center;
+	text-align: center;
+	display: inline-block;
+  }
+
+  .button .button1 h5 {
+	padding: 15px 30px;
+	background-color: rgba(56, 56, 56, 0.75);
+	border: 0px solid #4a4a4a;
+	border-radius: 30px;
+	color: #f4bc51;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+  }
+
+/*cosas que toadvia no se bien para que son*/
+
+@media (max-width: 991px) {
+
+	.banner .col-md-8 {
+		margin-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.banner .col-md-4 {
+		margin-top: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.banner .left-banner-content {
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.left-banner-content h1 {
+		font-size: 64px;
+		font-weight: 300;
+		color: #fff;
+		line-height: 80px!important;
+	}
+
+
+	.banner .left-banner-content .line-dec {
+		margin: 0 auto;
+	}
+
+	.best-offer .col-md-8 {
+		margin-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.best-offer .col-md-4 {
+		margin-top: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.best-offer-right-content {
+		text-align: center;
+	}
+
+	.movies-section-best-offer-true-content {
+		background-color: #eee;
+		padding: 30px 30px;
+		min-height: 550px;
+		height: auto;
+	}
+
+	.best-offer-right-content {
+		background-color: #eee;
+		padding: 30px 30px;
+		min-height: 550px;
+		height: auto;
+	}
+
+	.best-offer-right-content .pink-button {
+		margin-bottom: 50px;
+	}
+	
+}
+

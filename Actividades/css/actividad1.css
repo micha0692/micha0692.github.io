@@ -1,0 +1,68 @@
+
+/*actividad 1*/
+
+.actividad1-content {
+	text-align: center;
+	background-color: rgb(78, 76, 73);
+	background-position: center center;
+	min-height: 600px;
+	height: 750px;
+}
+
+.actividad1-content h1{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f4bc51;
+	font-weight: 700;
+}
+
+.actividad1-content h3{
+	text-align: center;
+	color: #f4bc51;
+}
+
+.actividad1-content h4{
+	padding-bottom: 75px;
+	text-align: center;
+	color: #f4bc51;
+}
+
+.button {
+	align-content: center;
+	text-align: center;
+	display: inline-block;
+  }
+
+  .button .button1 h5 {
+	padding: 15px 30px;
+	background-color: rgba(56, 56, 56, 0.75);
+	border: 0px solid #4a4a4a;
+	border-radius: 30px;
+	color: #f4bc51;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+  }
+
+  .button .button2 h5 {
+	padding: 15px 30px;
+	background-color: rgba(56, 56, 56, 0.75);
+	border: 0px solid #4a4a4a;
+	border-radius: 30px;
+	color: #f4bc51;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+}  
+
+
+.botonimagen img {
+	border: 5px solid rgb(255, 255, 255);
+	border-radius: 75px;
+	height:150px;
+	width:150px;
+	background-position:center;
+  }
